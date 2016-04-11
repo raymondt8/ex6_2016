@@ -1,0 +1,1 @@
+/usr/bin/cc   -fopenmp   CMakeFiles/poisson.dir/poisson.c.o  -o poisson -rdynamic -lfst /usr/local/lib/libmpi.so -Wl,-rpath,/usr/local/lib 

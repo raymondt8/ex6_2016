@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raymond/Dropbox/TMA4280/Exercises/ex6/poisson.c
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+

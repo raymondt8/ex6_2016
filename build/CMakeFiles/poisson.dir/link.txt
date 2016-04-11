@@ -1,0 +1,1 @@
+/usr/bin/cc   -fopenmp -O3 -DNDEBUG   CMakeFiles/poisson.dir/main.c.o CMakeFiles/poisson.dir/parallelPoisson.c.o CMakeFiles/poisson.dir/serialPoisson.c.o  -o poisson -rdynamic -lm -lfst /usr/local/lib/libmpi.so -Wl,-rpath,/usr/local/lib 
